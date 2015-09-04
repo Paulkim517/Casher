@@ -1,0 +1,20 @@
+<ion-view title="Casher" id="head">
+    <ion-content>
+
+        <div>
+            <div id="map" lat="37.773972" lng="-122.431297" zoom="13" map> 
+            </div>
+
+            <div width="100%" height="50px"class="list list-inset" style="margin:0px auto;">
+                <label class="item item-input">
+                    <input type="text" ng-model="user.desc" placeholder="Description" class = "">
+                </label>
+
+                <button class="button button-full button-positive" ng-click="saveDetails()">
+                    Save
+                </button>
+            </div>
+        </div>
+
+    </ion-content>
+</ion-view>
